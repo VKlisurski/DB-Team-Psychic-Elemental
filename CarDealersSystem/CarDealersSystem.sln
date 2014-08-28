@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealersSystem", "CarDealersSystem\CarDealersSystem.csproj", "{AADF86DB-2E10-4134-8974-017376F7A648}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDBModule", "MongoDBModule\MongoDBModule.csproj", "{5492326E-7BE8-416F-8EA0-7BBF7BEB121A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealersSystem.Models", "CarDealersSystem.Models\CarDealersSystem.Models.csproj", "{2F8E27E3-0752-458F-B68A-49DD7C4233E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealersSystem.Data", "CarDealersSystem.Data\CarDealersSystem.Data.csproj", "{DCB2E2CB-7C1B-460B-AC92-834E779AF1C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealersSystem.ConsoleClient", "CarDealersSystem.ConsoleClient\CarDealersSystem.ConsoleClient.csproj", "{5A62081B-BB4D-441E-BA55-4516B1F80CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealersSystem.MongoDbSynchronizator", "CarDealersSystem.MongoDbSynchronizator\CarDealersSystem.MongoDbSynchronizator.csproj", "{D4D8C047-47C2-4973-9A29-3068309935CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AADF86DB-2E10-4134-8974-017376F7A648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AADF86DB-2E10-4134-8974-017376F7A648}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AADF86DB-2E10-4134-8974-017376F7A648}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AADF86DB-2E10-4134-8974-017376F7A648}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5492326E-7BE8-416F-8EA0-7BBF7BEB121A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5492326E-7BE8-416F-8EA0-7BBF7BEB121A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5492326E-7BE8-416F-8EA0-7BBF7BEB121A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5492326E-7BE8-416F-8EA0-7BBF7BEB121A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F8E27E3-0752-458F-B68A-49DD7C4233E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F8E27E3-0752-458F-B68A-49DD7C4233E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F8E27E3-0752-458F-B68A-49DD7C4233E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F8E27E3-0752-458F-B68A-49DD7C4233E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB2E2CB-7C1B-460B-AC92-834E779AF1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB2E2CB-7C1B-460B-AC92-834E779AF1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB2E2CB-7C1B-460B-AC92-834E779AF1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB2E2CB-7C1B-460B-AC92-834E779AF1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A62081B-BB4D-441E-BA55-4516B1F80CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A62081B-BB4D-441E-BA55-4516B1F80CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A62081B-BB4D-441E-BA55-4516B1F80CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A62081B-BB4D-441E-BA55-4516B1F80CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D8C047-47C2-4973-9A29-3068309935CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D8C047-47C2-4973-9A29-3068309935CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D8C047-47C2-4973-9A29-3068309935CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D8C047-47C2-4973-9A29-3068309935CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

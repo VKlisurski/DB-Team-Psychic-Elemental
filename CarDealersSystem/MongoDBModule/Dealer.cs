@@ -19,17 +19,20 @@ namespace MongoDBModule
 
         public string City { get; set; }
 
+        public decimal Income { get; set; }
+
         [BsonConstructor]
-        public Dealer(string name, string country, string city)
+        public Dealer(string name, string country, string city, decimal income = 0)
         {
             this.Name = name;
             this.Country = country;
             this.City = city;
+            this.Income = income;
         }
 
         public override string ToString()
         {
-            return this.Country + " " + this.City + " " + this.Name;
+            return this.Name + " " + this.Country + " " + this.City + this.Income;
         }
     }
 }

@@ -1,1 +1,11 @@
 E:\Academy\DataBase\Teamwork\TestMongo\CarDealersSystem\CarDealersSystem\bin\Debug\CarDealersSystem.exe.config
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem\bin\Debug\CarDealersSystem.exe.config
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem\bin\Debug\CarDealersSystem.exe
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem\bin\Debug\CarDealersSystem.pdb
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem\bin\Debug\MongoDB.Bson.dll
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem\bin\Debug\MongoDB.Driver.dll
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem\bin\Debug\MongoDB.Bson.xml
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem\bin\Debug\MongoDB.Driver.xml
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem\obj\Debug\CarDealersSystem.csprojResolveAssemblyReference.cache
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem\obj\Debug\CarDealersSystem.exe
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem\obj\Debug\CarDealersSystem.pdb

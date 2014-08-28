@@ -8,3 +8,13 @@ E:\Academy\DataBase\Teamwork\TestMongo\CarDealersSystem\MongoDBModule\bin\Debug\
 E:\Academy\DataBase\Teamwork\TestMongo\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.csprojResolveAssemblyReference.cache
 E:\Academy\DataBase\Teamwork\TestMongo\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.exe
 E:\Academy\DataBase\Teamwork\TestMongo\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.pdb
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.exe.config
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.exe
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.pdb
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.exe
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.pdb
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Bson.dll
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Driver.dll
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Bson.xml
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Driver.xml
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.csprojResolveAssemblyReference.cache

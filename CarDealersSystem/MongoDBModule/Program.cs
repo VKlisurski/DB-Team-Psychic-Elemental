@@ -11,6 +11,8 @@ namespace MongoDBModule
     {
         static void Main(string[] args)
         {
+            // NOTE Some or All of this will be readed from XML. This is temporary solution
+
             var mongoClient = new MongoClient("mongodb://localhost/");
             var mongoServer = mongoClient.GetServer();
             var carsDb = mongoServer.GetDatabase("CarDealersSystem");

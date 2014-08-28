@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MongoDBModule
 {
-    class Model
+    public class Model
     {
          [BsonId]
         public ObjectId Id { get; set; }

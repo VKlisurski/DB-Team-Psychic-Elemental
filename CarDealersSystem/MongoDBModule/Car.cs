@@ -32,7 +32,7 @@ namespace MongoDBModule
 
         public override string ToString()
         {
-            return string.Format("ModelId: {0} Make: {1} Dealer:{2} Price{3}",this.ModelName, this.MakeName, this.DealerName, this.Price);
+            return string.Format("ModelId: {0} Make: {1} Dealer: {2} Price{3}",this.ModelName, this.MakeName, this.DealerName, this.Price);
         }
     }
 }
