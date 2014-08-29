@@ -42,10 +42,16 @@ namespace MongoDBModule
             destinations.Insert(make);
         }
 
-        public void addType(Type type)
+        public void AddType(Type type)
         {
             var destinations = this.database.GetCollection("Types");
             destinations.Insert(type);
+        }
+
+        public void AddLooseReport(LooseReport loose)
+        {
+            var destination = this.database.GetCollection("LoosesReports");
+            destination.Insert(loose);
         }
     }
 }

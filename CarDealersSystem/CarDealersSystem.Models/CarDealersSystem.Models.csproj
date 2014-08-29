@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Car.cs" />
     <Compile Include="Dealer.cs" />
+    <Compile Include="LooseReport.cs" />
     <Compile Include="Make.cs" />
     <Compile Include="Model.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -22,3 +22,5 @@ E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.ConsoleC
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.ConsoleClient\bin\Debug\MongoDB.Bson.xml
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.ConsoleClient\bin\Debug\MongoDB.Driver.xml
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.ConsoleClient\obj\Debug\CarDealersSystem.ConsoleClient.csprojResolveAssemblyReference.cache
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.ConsoleClient\bin\Debug\XmlController.dll
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.ConsoleClient\bin\Debug\XmlController.pdb

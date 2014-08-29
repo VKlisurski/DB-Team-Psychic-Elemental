@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<looses>
+  <dealer dealerName="Overdrive">
+    <loose month="Jul-2013">8000</loose>
+    <loose month="Aug-2013">6000</loose>
+  </dealer>
+  <dealer dealerName="Mobile">
+    <loose month="Jul-2013">15000</loose>
+    <loose month="Aug-2013">11000</loose>
+  </dealer>
+</looses>

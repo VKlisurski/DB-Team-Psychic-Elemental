@@ -67,5 +67,15 @@ namespace MongoDBModule
 
             return list;
         }
+
+        public IEnumerable<LooseReport> GetDealersLooses()
+        {
+
+            var typesCollection = database.GetCollection("LoosesReports");
+            var allDealers = typesCollection.FindAllAs<LooseReport>();
+            var list = allDealers.ToList();
+
+            return list;
+        }
     }
 }

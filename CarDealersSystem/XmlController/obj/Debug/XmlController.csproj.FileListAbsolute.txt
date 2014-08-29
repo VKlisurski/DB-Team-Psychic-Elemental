@@ -1,0 +1,5 @@
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\XmlController\bin\Debug\XmlController.dll
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\XmlController\bin\Debug\XmlController.pdb
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\XmlController\obj\Debug\XmlController.csprojResolveAssemblyReference.cache
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\XmlController\obj\Debug\XmlController.dll
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\XmlController\obj\Debug\XmlController.pdb

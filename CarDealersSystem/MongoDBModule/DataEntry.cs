@@ -53,7 +53,7 @@ namespace MongoDBModule
             for (int i = 0; i < types.Length; i++)
             {
                 var newType = new Type(types[i]);
-                mongoInserter.addType(newType);
+                mongoInserter.AddType(newType);
             }
         }
     }

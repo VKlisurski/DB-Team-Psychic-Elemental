@@ -18,3 +18,5 @@ E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.MongoDbS
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\CarDealersSystem.Models.dll
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\CarDealersSystem.Data.pdb
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\CarDealersSystem.Models.pdb
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\XmlController.dll
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\XmlController.pdb

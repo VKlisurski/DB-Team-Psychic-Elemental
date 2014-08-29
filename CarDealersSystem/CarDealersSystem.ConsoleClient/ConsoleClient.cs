@@ -15,7 +15,7 @@ namespace CarDealersSystem.ConsoleClient
     {
         static void Main(string[] args)
         {
-            //Synchronizator.Run();
+            Synchronizator.Run();
 
             Extractor ext = new Extractor("..\\..\\");
             ext.ExtractFromArchive("Sales-Reports.zip");

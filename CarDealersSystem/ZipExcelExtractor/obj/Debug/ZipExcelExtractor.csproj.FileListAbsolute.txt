@@ -18,3 +18,5 @@ E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\ZipExcelExtractor\bin\Deb
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\ZipExcelExtractor\bin\Debug\ZipExcelExtractor.dll.config
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\ZipExcelExtractor\bin\Debug\EntityFramework.SqlServer.dll
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\ZipExcelExtractor\bin\Debug\EntityFramework.SqlServer.xml
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\ZipExcelExtractor\bin\Debug\XmlController.dll
+E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\ZipExcelExtractor\bin\Debug\XmlController.pdb

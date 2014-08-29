@@ -26,6 +26,8 @@ namespace MongoDBModule
             //carsDb.CreateCollection("Types");
 
             //DataEntry.FillWithData(); // uncomment first run to fill data
+
+            Importer.ImportLoosesReportsFromXml();
         }
     }
 }

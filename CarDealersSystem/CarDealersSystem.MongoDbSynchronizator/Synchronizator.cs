@@ -13,6 +13,7 @@ namespace CarDealersSystem.MongoDbSynchronizator
             SyncMakes();
             SyncModels();
             SyncTypes();
+            SyncLoosesReports();
         }
 
         private static void SyncCars()
@@ -120,6 +121,28 @@ namespace CarDealersSystem.MongoDbSynchronizator
                     {
                         var newDealer = new CarDealersSystem.Models.Type(curType.Name);
                         dbContext.Types.Add(newDealer);
+                    }
+                }
+
+                dbContext.SaveChanges();
+            }
+        }
+
+        private static void SyncLoosesReports()
+        {
+            using (var dbContext = new CarDealersSystemDbContext())
+            {
+                MongoDataReader reader = new MongoDataReader();
+                var looses = reader.GetDealersLooses();
+
+                foreach (var currLoose in looses)
+                {
+                    var sqlLoose = dbContext.LoosesReports.Where(l => l.ReportDate == currLoose.ReportDate).FirstOrDefault();
+
+                    if (sqlLoose == null)
+                    {
+                        var newLoose = new CarDealersSystem.Models.LooseReport(currLoose.DealerName, currLoose.ReportDate, currLoose.Amount);
+                        dbContext.LoosesReports.Add(newLoose);
                     }
                 }
 

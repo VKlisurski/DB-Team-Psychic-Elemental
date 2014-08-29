@@ -20,5 +20,7 @@ namespace CarDealersSystem.Data
         public IDbSet<Type> Types { get; set; }
 
         public IDbSet<SalesReport> SalesReports { get; set; }
+
+        public IDbSet<LooseReport> LoosesReports { get; set; }
     }
 }
