@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CarDealersSystem.MongoDbSynchronizator;
+using ZipExcelExtractor;
 
 
 namespace CarDealersSystem.ConsoleClient
@@ -14,11 +15,10 @@ namespace CarDealersSystem.ConsoleClient
     {
         static void Main(string[] args)
         {
-            Synchronizator.Run();
-            using (var dbContext = new CarDealersSystemDbContext())
-            {
-                Synchronizator.Run();
-            }
+            //Synchronizator.Run();
+
+            Extractor ext = new Extractor("..\\..\\");
+            ext.ExtractFromArchive("Sales-Reports.zip");
         }
     }
 }

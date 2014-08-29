@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealersSystem.ConsoleCli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealersSystem.MongoDbSynchronizator", "CarDealersSystem.MongoDbSynchronizator\CarDealersSystem.MongoDbSynchronizator.csproj", "{D4D8C047-47C2-4973-9A29-3068309935CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipExcelExtractor", "ZipExcelExtractor\ZipExcelExtractor.csproj", "{82B7F078-B255-4315-821E-953C6E5D7FA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D4D8C047-47C2-4973-9A29-3068309935CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4D8C047-47C2-4973-9A29-3068309935CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4D8C047-47C2-4973-9A29-3068309935CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B7F078-B255-4315-821E-953C6E5D7FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B7F078-B255-4315-821E-953C6E5D7FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B7F078-B255-4315-821E-953C6E5D7FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B7F078-B255-4315-821E-953C6E5D7FA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

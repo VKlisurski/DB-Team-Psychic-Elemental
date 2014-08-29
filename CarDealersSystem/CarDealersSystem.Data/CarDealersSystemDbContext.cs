@@ -18,5 +18,7 @@ namespace CarDealersSystem.Data
         public IDbSet<Model> Models { get; set; }
 
         public IDbSet<Type> Types { get; set; }
+
+        public IDbSet<SalesReport> SalesReports { get; set; }
     }
 }
