@@ -1,11 +1,13 @@
-﻿using CarDealersSystem.Models;
-using System.Data.Entity;
-
-namespace CarDealersSystem.Data
+﻿namespace CarDealersSystem.Data
 {
+    using System.Data.Entity;
+
+    using CarDealersSystem.Models;
+
     public class CarDealersSystemDbContext : DbContext
     {
-        public CarDealersSystemDbContext() : base("CarDealersSystemConnection")
+        public CarDealersSystemDbContext()
+            : base("CarDealersSystemConnection")
         {
         }
 

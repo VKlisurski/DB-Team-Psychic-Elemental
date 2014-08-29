@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CarDealersSystem.Models
+﻿namespace CarDealersSystem.Models
 {
+    using System;
+
     public class SalesReport
     {
-        public SalesReport() { }
+        public SalesReport()
+        {
+        }
 
         public SalesReport(string dealerName, int carID, DateTime reportDate, int quantity, decimal sum)
         {
@@ -25,7 +23,7 @@ namespace CarDealersSystem.Models
 
         public int CarID { get; set; }
 
-        public DateTime ReportDate { get; set;}
+        public DateTime ReportDate { get; set; }
 
         public int Quantity { get; set; }
 
@@ -33,7 +31,7 @@ namespace CarDealersSystem.Models
 
         public override string ToString()
         {
-            return this.DealerName + this.CarID + " " + this.ReportDate + " " + this.Quantity + " " + Sum;
+            return this.DealerName + this.CarID + " " + this.ReportDate + " " + this.Quantity + " " + this.Sum;
         }
     }
 }

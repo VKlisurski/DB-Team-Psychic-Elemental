@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CarDealersSystem.Models
+﻿namespace CarDealersSystem.Models
 {
     public class Dealer
     {
-        public Dealer() { }
+        public Dealer()
+        {
+        }
 
         public Dealer(string name, string country, string city, decimal income = 0)
         {

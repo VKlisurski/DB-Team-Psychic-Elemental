@@ -1,9 +1,11 @@
-﻿using CarDealersSystem.Data;
-using MongoDBModule;
-using System.Linq;
-
-namespace CarDealersSystem.MongoDbSynchronizator
+﻿namespace CarDealersSystem.MongoDbSynchronizator
 {
+    using System.Linq;
+
+    using MongoDBModule;
+
+    using CarDealersSystem.Data;
+
     public static class Synchronizator
     {
         public static void Run()
@@ -52,7 +54,7 @@ namespace CarDealersSystem.MongoDbSynchronizator
                     var sqlCurrentDealer = dbContext.Dealers.Where(m => m.Name == curDealer.Name).FirstOrDefault();
 
                     if (sqlCurrentDealer == null)
-                    { 
+                    {
                         var newDealer = new CarDealersSystem.Models.Dealer(curDealer.Name, curDealer.Country, curDealer.City);
                         dbContext.Dealers.Add(newDealer);
                     }

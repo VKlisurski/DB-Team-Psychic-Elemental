@@ -1,15 +1,21 @@
-﻿using MongoDB.Bson;
-using MongoDB.Bson.Serialization.Attributes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MongoDBModule
+﻿namespace MongoDBModule
 {
+    using System;
+
+    using MongoDB.Bson;
+    using MongoDB.Bson.Serialization.Attributes;
+
     public class Car
     {
+        [BsonConstructor]
+        public Car(string dealerName, string makeName, string modelName, decimal price)
+        {
+            this.DealerName = dealerName;
+            this.MakeName = makeName;
+            this.ModelName = modelName;
+            this.Price = price;
+        }
+
         [BsonId]
         public ObjectId Id { get; set; }
 
@@ -21,18 +27,9 @@ namespace MongoDBModule
 
         public decimal Price { get; set; }
 
-        [BsonConstructor]
-        public Car(string dealerName, string makeName, string modelName, decimal price)
-        {
-            this.DealerName = dealerName;
-            this.MakeName = makeName;
-            this.ModelName = modelName;
-            this.Price = price;
-        }
-
         public override string ToString()
         {
-            return string.Format("ModelId: {0} Make: {1} Dealer: {2} Price{3}",this.ModelName, this.MakeName, this.DealerName, this.Price);
+            return string.Format("ModelId: {0} Make: {1} Dealer: {2} Price{3}", this.ModelName, this.MakeName, this.DealerName, this.Price);
         }
     }
 }

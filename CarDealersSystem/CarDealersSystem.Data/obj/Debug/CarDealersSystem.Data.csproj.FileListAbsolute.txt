@@ -10,3 +10,15 @@ E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.Data\bin
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.csprojResolveAssemblyReference.cache
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.dll
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.pdb
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Data.dll.config
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Data.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Data.pdb
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Models.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Models.pdb
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.xml
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.csprojResolveAssemblyReference.cache
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.pdb

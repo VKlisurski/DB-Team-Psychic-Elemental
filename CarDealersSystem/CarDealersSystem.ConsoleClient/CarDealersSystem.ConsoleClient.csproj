@@ -68,6 +68,10 @@
       <Project>{d4d8c047-47c2-4973-9a29-3068309935cd}</Project>
       <Name>CarDealersSystem.MongoDbSynchronizator</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CarDealersSystem.Reporters\CarDealersSystem.Reporters.csproj">
+      <Project>{ff13f5c4-6697-4e2a-b18e-74f6e0f43203}</Project>
+      <Name>CarDealersSystem.Reporters</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ZipExcelExtractor\ZipExcelExtractor.csproj">
       <Project>{82b7f078-b255-4315-821e-953c6e5d7fa5}</Project>
       <Name>ZipExcelExtractor</Name>

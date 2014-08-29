@@ -1,25 +1,20 @@
-﻿using MongoDB.Bson;
-using MongoDB.Bson.Serialization.Attributes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MongoDBModule
+﻿namespace MongoDBModule
 {
+    using MongoDB.Bson;
+    using MongoDB.Bson.Serialization.Attributes;
+
     public class Type
     {
-        [BsonId]
-        public ObjectId Id { get; set; }
-
-        public string Name { get; set; }
-
         [BsonConstructor]
         public Type(string name)
         {
             this.Name = name;
         }
+
+        [BsonId]
+        public ObjectId Id { get; set; }
+
+        public string Name { get; set; }
 
         public override string ToString()
         {

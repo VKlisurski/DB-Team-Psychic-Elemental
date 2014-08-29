@@ -1,24 +1,24 @@
-﻿using CarDealersSystem.Data;
-using CarDealersSystem.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CarDealersSystem.MongoDbSynchronizator;
-using ZipExcelExtractor;
-
-
-namespace CarDealersSystem.ConsoleClient
+﻿namespace CarDealersSystem.ConsoleClient
 {
-    class ConsoleClient
+    using System;
+
+    using ZipExcelExtractor;
+
+    using CarDealersSystem.MongoDbSynchronizator;
+    using CarDealersSystem.Reporters.Contracts;
+    using CarDealersSystem.Reporters;
+
+    public class ConsoleClient
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             Synchronizator.Run();
-
+            
             Extractor ext = new Extractor("..\\..\\");
             ext.ExtractFromArchive("Sales-Reports.zip");
+
+            IReporter reporter = new JsonReporter();
+            reporter.Report();
         }
     }
 }

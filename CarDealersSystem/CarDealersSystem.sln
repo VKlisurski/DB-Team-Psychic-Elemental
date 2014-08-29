@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipExcelExtractor", "ZipExc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlController", "XmlController\XmlController.csproj", "{1DBFEC59-C3D9-4FBE-9333-313FD687E1FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealersSystem.Reporters", "CarDealersSystem.Reporters\CarDealersSystem.Reporters.csproj", "{FF13F5C4-6697-4E2A-B18E-74F6E0F43203}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{1DBFEC59-C3D9-4FBE-9333-313FD687E1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DBFEC59-C3D9-4FBE-9333-313FD687E1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DBFEC59-C3D9-4FBE-9333-313FD687E1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF13F5C4-6697-4E2A-B18E-74F6E0F43203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF13F5C4-6697-4E2A-B18E-74F6E0F43203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF13F5C4-6697-4E2A-B18E-74F6E0F43203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF13F5C4-6697-4E2A-B18E-74F6E0F43203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

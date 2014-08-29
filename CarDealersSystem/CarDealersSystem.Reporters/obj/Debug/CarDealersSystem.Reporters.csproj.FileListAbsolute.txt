@@ -1,0 +1,17 @@
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarDealersSystem.Reporters.dll.config
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarDealersSystem.Reporters.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarDealersSystem.Reporters.pdb
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarDealersSystem.Data.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarDealersSystem.Models.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\EntityFramework.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarDealersSystem.Data.pdb
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarDealersSystem.Models.pdb
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\EntityFramework.xml
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\obj\Debug\CarDealersSystem.Reporters.csprojResolveAssemblyReference.cache
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\obj\Debug\CarDealersSystem.Reporters.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\obj\Debug\CarDealersSystem.Reporters.pdb
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\MySql.Data.dll

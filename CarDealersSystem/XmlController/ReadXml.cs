@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-
-namespace XmlController
+﻿namespace XmlController
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Xml.Linq;
+
     public static class ReadXml
     {
         public static List<Tuple<string, string, string>> GetObjects(string fileName)

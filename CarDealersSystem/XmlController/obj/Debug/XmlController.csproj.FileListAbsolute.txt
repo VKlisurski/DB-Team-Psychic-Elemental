@@ -3,3 +3,8 @@ E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\XmlController\bin\Debug\X
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\XmlController\obj\Debug\XmlController.csprojResolveAssemblyReference.cache
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\XmlController\obj\Debug\XmlController.dll
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\XmlController\obj\Debug\XmlController.pdb
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\XmlController\bin\Debug\XmlController.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\XmlController\bin\Debug\XmlController.pdb
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\XmlController\obj\Debug\XmlController.csprojResolveAssemblyReference.cache
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\XmlController\obj\Debug\XmlController.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\XmlController\obj\Debug\XmlController.pdb

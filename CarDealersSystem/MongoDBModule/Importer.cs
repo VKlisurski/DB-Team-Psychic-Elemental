@@ -1,8 +1,9 @@
-﻿using System;
-using XmlController;
-
-namespace MongoDBModule
+﻿namespace MongoDBModule
 {
+    using System;
+
+    using XmlController;
+
     public static class Importer
     {
         public static void ImportLoosesReportsFromXml()

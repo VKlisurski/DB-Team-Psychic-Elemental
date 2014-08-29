@@ -1,15 +1,10 @@
-﻿using MongoDB.Driver;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MongoDBModule
+﻿namespace MongoDBModule
 {
-    class Program
+    using MongoDB.Driver;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             // NOTE: All the data entry will be fixed. This is temporary solution.
             // NOTE2: The DealersIncomes will be parsed from XML

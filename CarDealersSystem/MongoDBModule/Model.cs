@@ -1,16 +1,13 @@
-﻿using MongoDB.Bson;
-using MongoDB.Bson.Serialization.Attributes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MongoDBModule
+﻿namespace MongoDBModule
 {
+    using System;
+
+    using MongoDB.Bson;
+    using MongoDB.Bson.Serialization.Attributes;
+
     public class Model
     {
-         [BsonId]
+        [BsonId]
         public ObjectId Id { get; set; }
 
         public string Name { get; set; }

@@ -3,3 +3,8 @@ E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.Models\b
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.Models\obj\Debug\CarDealersSystem.Models.csprojResolveAssemblyReference.cache
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.Models\obj\Debug\CarDealersSystem.Models.dll
 E:\Academy\DataBase\Teamwork\Teamwork\CarDealersSystem\CarDealersSystem.Models\obj\Debug\CarDealersSystem.Models.pdb
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Models\bin\Debug\CarDealersSystem.Models.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Models\bin\Debug\CarDealersSystem.Models.pdb
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Models\obj\Debug\CarDealersSystem.Models.csprojResolveAssemblyReference.cache
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Models\obj\Debug\CarDealersSystem.Models.dll
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Models\obj\Debug\CarDealersSystem.Models.pdb

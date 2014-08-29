@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CarDealersSystem.Models
+﻿namespace CarDealersSystem.Models
 {
     public class Make
     {
-        public Make() { }
+        public Make()
+        {
+        }
 
         public Make(string name)
         {

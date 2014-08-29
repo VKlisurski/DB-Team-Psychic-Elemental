@@ -1,15 +1,13 @@
-﻿using MongoDB.Driver;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MongoDBModule
+﻿namespace MongoDBModule
 {
+    using System.Collections.Generic;
+    using System.Linq;
+
+    using MongoDB.Driver;
+
     public class MongoDataReader
     {
-        public MongoDatabase database;
+        private MongoDatabase database;
 
         public MongoDataReader()
         {
@@ -20,8 +18,7 @@ namespace MongoDBModule
 
         public IEnumerable<Car> GetCars()
         {
-
-            var carsCollection = database.GetCollection("Cars");
+            var carsCollection = this.database.GetCollection("Cars");
             var allCars = carsCollection.FindAllAs<Car>();
             var list = allCars.ToList();
 
@@ -30,8 +27,7 @@ namespace MongoDBModule
 
         public IEnumerable<Dealer> GetDealers()
         {
-
-            var dealersCollection = database.GetCollection("Dealers");
+            var dealersCollection = this.database.GetCollection("Dealers");
             var allDealers = dealersCollection.FindAllAs<Dealer>();
             var list = allDealers.ToList();
 
@@ -40,8 +36,7 @@ namespace MongoDBModule
 
         public IEnumerable<Make> GetMakes()
         {
-
-            var makesCollection = database.GetCollection("Makes");
+            var makesCollection = this.database.GetCollection("Makes");
             var allMakes = makesCollection.FindAllAs<Make>();
             var list = allMakes.ToList();
 
@@ -50,8 +45,7 @@ namespace MongoDBModule
 
         public IEnumerable<Model> GetModels()
         {
-
-            var modelsCollection = database.GetCollection("Models");
+            var modelsCollection = this.database.GetCollection("Models");
             var allModels = modelsCollection.FindAllAs<Model>();
             var list = allModels.ToList();
 
@@ -60,8 +54,7 @@ namespace MongoDBModule
 
         public IEnumerable<Type> GetAllTypes()
         {
-
-            var typesCollection = database.GetCollection("Types");
+            var typesCollection = this.database.GetCollection("Types");
             var allTypes = typesCollection.FindAllAs<Type>();
             var list = allTypes.ToList();
 
@@ -70,8 +63,7 @@ namespace MongoDBModule
 
         public IEnumerable<LooseReport> GetDealersLooses()
         {
-
-            var typesCollection = database.GetCollection("LoosesReports");
+            var typesCollection = this.database.GetCollection("LoosesReports");
             var allDealers = typesCollection.FindAllAs<LooseReport>();
             var list = allDealers.ToList();
 

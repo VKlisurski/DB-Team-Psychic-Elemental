@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CarDealersSystem.Models
+﻿namespace CarDealersSystem.Models
 {
+    using System;
+
     public class LooseReport
     {
-        public LooseReport() { }
+        public LooseReport()
+        {
+        }
 
         public LooseReport(string dealerName, DateTime reportDate, decimal amount)
         {

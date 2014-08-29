@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CarDealersSystem.Models
+﻿namespace CarDealersSystem.Models
 {
+    using System;
+
     public class Model
     {
-        public Model() { }
+        public Model()
+        {
+        }
 
         public Model(string name, DateTime manufacturingDate, string typeName)
         {
