@@ -41,10 +41,7 @@
                 strBuilder.Append("<th><b>Sum</b></th>");
                 strBuilder.Append("</tr>");
 
-                var cars = carDealerDb.Cars;
-                var sales = carDealerDb.SalesReports;
-
-                var reports = cars.Join(sales, car => car.CarID, sale => sale.CarID,
+                var reports = carDealerDb.Cars.Join(carDealerDb.SalesReports, car => car.CarID, sale => sale.CarID,
                                           (car, sale) => new
                                           {
                                               CarModel = car.ModelName,
@@ -55,15 +52,15 @@
                                           });
 
                 decimal totalSum = 0;
-                foreach (var sale in reports)
+                foreach (var report in reports)
                 {
                     totalSum = totalSum + sale.Sum;
                     strBuilder.Append("<tr>");
-                    strBuilder.AppendFormat("<td>{0}</td>", sale.CarModel);
-                    strBuilder.AppendFormat("<td>{0}</td>", sale.Quantity);
-                    strBuilder.AppendFormat("<td>{0}</td>", sale.Price);
-                    strBuilder.AppendFormat("<td>{0}</td>", sale.DealerName);
-                    strBuilder.AppendFormat("<td>{0}</td>", sale.Sum);
+                    strBuilder.AppendFormat("<td>{0}</td>", report.CarModel);
+                    strBuilder.AppendFormat("<td>{0}</td>", report.Quantity);
+                    strBuilder.AppendFormat("<td>{0}</td>", report.Price);
+                    strBuilder.AppendFormat("<td>{0}</td>", report.DealerName);
+                    strBuilder.AppendFormat("<td>{0}</td>", report.Sum);
                     strBuilder.Append("</tr>");
                 }
 
