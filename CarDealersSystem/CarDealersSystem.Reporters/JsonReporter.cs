@@ -20,8 +20,11 @@
 
         public void Report()
         {
+            Console.WriteLine("Started creating JSON reports...");
+
             if (!Directory.Exists(ReportsPath))
             {
+                Console.WriteLine("Creating Sales reports folder...");
                 Directory.CreateDirectory(ReportsPath);
             }
 
@@ -32,31 +35,37 @@
             var saveFilesPaths = JsonReporter.SaveReportsToFiles(reports);
 
             JsonReporter.SendReportToDatabase(reports, saveFilesPaths);
+
+            Console.WriteLine("JSON reports created.");
         }
 
         private static IQueryable<JsonReport> GetJsonReports(CarDealersSystemDbContext dbContext)
         {
+            Console.WriteLine("Generating reports from the SQL Server database data...");
+
             var cars = dbContext.Cars;
             var sales = dbContext.SalesReports;
 
             var reports = cars.Join(sales, car => car.CarID, sale => sale.CarID,
-                                         (car, sale) => new JsonReport
-                                         {
-                                             Id = car.CarID,
-                                             CarModer = car.ModelName,
-                                             CarMake = car.MakeName,
-                                             PricePerUnit = car.Price,
-                                             Quantity = sales.Where(rep => rep.CarID == car.CarID)
-                                                 .Sum(profit => profit.Quantity),
-                                             Sum = sales.Where(rep => rep.CarID == car.CarID)
-                                                 .Sum(profit => profit.Sum)
-                                         });
+                                       (car, sale) => new JsonReport
+                                       {
+                                           Id = car.CarID,
+                                           CarModer = car.ModelName,
+                                           CarMake = car.MakeName,
+                                           PricePerUnit = car.Price,
+                                           Quantity = sales.Where(rep => rep.CarID == car.CarID)
+                                               .Sum(profit => profit.Quantity),
+                                           Sum = sales.Where(rep => rep.CarID == car.CarID)
+                                               .Sum(profit => profit.Sum)
+                                       });
 
             return reports;
         }
 
         private static List<string> SaveReportsToFiles(IQueryable<JsonReport> reports)
         {
+            Console.WriteLine("Saving reports to files...");
+
             List<string> reportsFilePaths = new List<string>();
 
             foreach (var report in reports)
@@ -80,6 +89,8 @@
 
         private static void SendReportToDatabase(IQueryable<JsonReport> reportsQuery, List<string> saveFilesPaths)
         {
+            Console.WriteLine("Sending report data to MySQL database...");
+
             var reports = reportsQuery.ToList<JsonReport>();
 
             for (int i = 0, length = reports.Count; i < length; i++)
@@ -114,9 +125,7 @@
             string returnCommand = "INSERT INTO sales_reports(CarId, SalesReportFilePath, CarModel, CarMake, QuantitySold, TotalIncome) " +
                                    "VALUES (@carId, @filePath, @carModel, @carMake, @quantity, @totalIncome);";
 
-            string checkReportFileExistanceCommand = "SELECT SalesReportFilePath FROM sales_reports";
-
-            MySqlCommand reportFileCheckCommand = new MySqlCommand(checkReportFileExistanceCommand, connection);
+            MySqlCommand reportFileCheckCommand = new MySqlCommand("SELECT SalesReportFilePath FROM sales_reports", connection);
             var reader = reportFileCheckCommand.ExecuteReader();
 
             using (reader)
