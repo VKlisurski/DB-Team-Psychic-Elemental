@@ -72,6 +72,10 @@
       <Project>{ff13f5c4-6697-4e2a-b18e-74f6e0f43203}</Project>
       <Name>CarDealersSystem.Reporters</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MySQLDBModule\MySqlDbModule.csproj">
+      <Project>{1de8c353-2db2-40d0-b20d-18df08e5d637}</Project>
+      <Name>MySqlDbModule</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ZipExcelExtractor\ZipExcelExtractor.csproj">
       <Project>{82b7f078-b255-4315-821e-953c6e5d7fa5}</Project>
       <Name>ZipExcelExtractor</Name>

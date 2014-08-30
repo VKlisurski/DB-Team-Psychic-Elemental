@@ -7,6 +7,7 @@
     using CarDealersSystem.MongoDbSynchronizator;
     using CarDealersSystem.Reporters.Contracts;
     using CarDealersSystem.Reporters;
+    using MySqlDbModule;
 
     public class ConsoleClient
     {
@@ -17,6 +18,10 @@
             Extractor ext = new Extractor("..\\..\\");
             ext.ExtractFromArchive("Sales-Reports.zip");
 
+            // Creates MySQL database for the reports
+            MySqlDbCreator.CreateBatabase();
+
+            // Generates report files and sends the data for them to the MySQL database
             IReporter reporter = new JsonReporter();
             reporter.Report();
         }

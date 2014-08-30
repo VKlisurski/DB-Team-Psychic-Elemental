@@ -29,3 +29,5 @@ C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\Car
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.ConsoleClient\obj\Debug\CarDealersSystem.ConsoleClient.csprojResolveAssemblyReference.cache
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.ConsoleClient\obj\Debug\CarDealersSystem.ConsoleClient.exe
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.ConsoleClient\obj\Debug\CarDealersSystem.ConsoleClient.pdb
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.ConsoleClient\bin\Debug\MySqlDbModule.pdb
+C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.ConsoleClient\bin\Debug\MySqlDbModule.dll
