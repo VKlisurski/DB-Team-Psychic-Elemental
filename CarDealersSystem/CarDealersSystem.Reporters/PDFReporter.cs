@@ -54,7 +54,7 @@
                 decimal totalSum = 0;
                 foreach (var report in reports)
                 {
-                    totalSum = totalSum + sale.Sum;
+                    totalSum = totalSum + report.Sum;
                     strBuilder.Append("<tr>");
                     strBuilder.AppendFormat("<td>{0}</td>", report.CarModel);
                     strBuilder.AppendFormat("<td>{0}</td>", report.Quantity);

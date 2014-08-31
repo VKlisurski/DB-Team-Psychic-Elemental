@@ -19,7 +19,7 @@
             ext.ExtractFromArchive("Sales-Reports.zip");
 
             // Generates PDF report file
-            Reporters.PDFReporter.Export();
+            PDFReporter.Export();
             Console.WriteLine("PDF Report generated successfully");
 
             // Creates MySQL database for the reports

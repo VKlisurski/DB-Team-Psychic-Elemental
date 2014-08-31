@@ -32,3 +32,15 @@ C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\Mon
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.csprojResolveAssemblyReference.cache
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.exe
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.pdb
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.exe.config
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.exe
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.pdb
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Bson.dll
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Driver.dll
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\XmlController.dll
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\XmlController.pdb
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Bson.xml
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Driver.xml
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.csprojResolveAssemblyReference.cache
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.exe
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.pdb

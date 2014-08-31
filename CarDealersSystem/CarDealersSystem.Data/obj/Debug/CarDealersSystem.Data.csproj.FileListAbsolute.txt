@@ -22,3 +22,15 @@ C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\Car
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.csprojResolveAssemblyReference.cache
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.dll
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.pdb
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Data.dll.config
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Data.dll
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Data.pdb
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Models.dll
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.dll
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Models.pdb
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.xml
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.csprojResolveAssemblyReference.cache
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.dll
+C:\Users\Tinski\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.pdb
