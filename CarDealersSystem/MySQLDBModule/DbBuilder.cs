@@ -47,7 +47,7 @@
 
                 if (primary == string.Empty && dbcol.IsPrimary)
                 {
-                    primary = string.Format("PRIMARY KEY ({0})", dbcol.ColName);
+                    primary = string.Format("CONSTRAINT `PK_{0}` PRIMARY KEY (`{0}`),", dbcol.ColName);
                 }
 
                 if (unique == string.Empty && dbcol.IsUnique)
@@ -60,15 +60,15 @@
                 }
             }
 
-            if (unique != string.Empty)
-            {
-                sql.Append(unique)
-                    .Append(crlf);
-            }
-
             if (primary != string.Empty)
             {
                 sql.Append(primary)
+                    .Append(crlf);
+            }
+
+            if (unique != string.Empty)
+            {
+                sql.Append(unique)
                     .Append(crlf);
             }
 

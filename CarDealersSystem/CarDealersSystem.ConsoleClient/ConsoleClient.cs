@@ -23,7 +23,7 @@
             Console.WriteLine("PDF Report generated successfully");
 
             // Creates MySQL database for the reports
-            MySqlDbCreator.CreateBatabase();
+            MySqlDbCreator.CreateDatabase();
 
             // Generates report files and sends the data for them to the MySQL database
             IReporter reporter = new JsonReporter();

@@ -49,7 +49,7 @@
             var reports = cars.Join(sales, car => car.CarID, sale => sale.CarID,
                                        (car, sale) => new JsonReport
                                        {
-                                           Id = car.CarID,
+                                           CarId = car.CarID,
                                            CarModer = car.ModelName,
                                            CarMake = car.MakeName,
                                            PricePerUnit = car.Price,
@@ -70,7 +70,7 @@
 
             foreach (var report in reports)
             {
-                string reportFilePath = string.Format("{0}{1}{2}", ReportsPath, report.Id, ReportsFileExtension);
+                string reportFilePath = string.Format("{0}{1}{2}", ReportsPath, report.CarId, ReportsFileExtension);
 
                 StreamWriter writer = new StreamWriter(reportFilePath);
 
@@ -108,7 +108,8 @@
 
                     MySqlCommand command = new MySqlCommand(commandText, connection);
 
-                    command.Parameters.AddWithValue("@carId", report.Id);
+                    command.Parameters.AddWithValue("@id", i + 1);
+                    command.Parameters.AddWithValue("@carId", report.CarId);
                     command.Parameters.AddWithValue("@filePath", reportFilePath);
                     command.Parameters.AddWithValue("@carModel", report.CarModer);
                     command.Parameters.AddWithValue("@carMake", report.CarMake);
@@ -122,8 +123,8 @@
 
         private static string GetCommandText(MySqlConnection connection, string reportFilePath)
         {
-            string returnCommand = "INSERT INTO sales_reports(CarId, SalesReportFilePath, CarModel, CarMake, QuantitySold, TotalIncome) " +
-                                   "VALUES (@carId, @filePath, @carModel, @carMake, @quantity, @totalIncome);";
+            string returnCommand = "INSERT INTO sales_reports(Id, CarId, SalesReportFilePath, CarModel, CarMake, QuantitySold, TotalIncome) " +
+                                   "VALUES (@id, @carId, @filePath, @carModel, @carMake, @quantity, @totalIncome);";
 
             MySqlCommand reportFileCheckCommand = new MySqlCommand("SELECT SalesReportFilePath FROM sales_reports", connection);
             var reader = reportFileCheckCommand.ExecuteReader();

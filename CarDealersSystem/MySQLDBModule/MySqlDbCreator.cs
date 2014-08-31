@@ -9,7 +9,7 @@
         internal const string Password = "12345";
         private const string DbName = "sales_reports_database";
 
-        public static void CreateBatabase()
+        public static void CreateDatabase()
         {
             DropDatabaseIfExists(DbName);
             CreateDatabase(DbName);

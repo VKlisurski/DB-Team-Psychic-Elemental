@@ -25,6 +25,7 @@
                         Console.WriteLine("Building table {0}", tableName);
                         DbBuilder dbb = new DbBuilder();
                         dbb.StartTable(tableName);
+                        dbb.AddColumn(ColumnType.Int, "Id", isNull: false, isPrimary: true);
                         dbb.AddColumn(ColumnType.Int, "CarId", isNull: false, isUnique: true);
                         dbb.AddColumn(ColumnType.Varchar, "SalesReportFilePath", isNull: false, charLen: 50, isUnique: true);
                         dbb.AddColumn(ColumnType.Varchar, "CarModel", isNull: false, charLen: 50);

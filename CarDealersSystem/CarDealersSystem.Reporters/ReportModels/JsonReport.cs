@@ -8,7 +8,7 @@
     public class JsonReport
     {
         [JsonProperty]
-        public int Id { get; set; }
+        public int CarId { get; set; }
 
         [JsonProperty]
         public string CarModer { get; set; }
