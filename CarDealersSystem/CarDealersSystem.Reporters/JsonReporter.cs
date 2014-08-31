@@ -108,7 +108,6 @@
 
                     MySqlCommand command = new MySqlCommand(commandText, connection);
 
-                    command.Parameters.AddWithValue("@id", i + 1);
                     command.Parameters.AddWithValue("@carId", report.CarId);
                     command.Parameters.AddWithValue("@filePath", reportFilePath);
                     command.Parameters.AddWithValue("@carModel", report.CarModer);
@@ -123,8 +122,8 @@
 
         private static string GetCommandText(MySqlConnection connection, string reportFilePath)
         {
-            string returnCommand = "INSERT INTO sales_reports(Id, CarId, SalesReportFilePath, CarModel, CarMake, QuantitySold, TotalIncome) " +
-                                   "VALUES (@id, @carId, @filePath, @carModel, @carMake, @quantity, @totalIncome);";
+            string returnCommand = "INSERT INTO sales_reports(CarId, SalesReportFilePath, CarModel, CarMake, QuantitySold, TotalIncome) " +
+                                   "VALUES (@carId, @filePath, @carModel, @carMake, @quantity, @totalIncome);";
 
             MySqlCommand reportFileCheckCommand = new MySqlCommand("SELECT SalesReportFilePath FROM sales_reports", connection);
             var reader = reportFileCheckCommand.ExecuteReader();

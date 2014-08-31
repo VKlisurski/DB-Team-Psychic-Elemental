@@ -42,7 +42,7 @@
                 DbColumn dbcol = columns[colIndex];
                 sql.Append(string.Format("`{0}`", dbcol.ColName));
                 sql.Append(dbcol.ColTypeString)
-                    .Append(',')
+                    .Append(string.Format("{0},", dbcol.IsPrimary ? " AUTO_INCREMENT" : ""))
                     .Append(crlf);
 
                 if (primary == string.Empty && dbcol.IsPrimary)
