@@ -2,12 +2,13 @@
 {
     using System;
 
-    using ZipExcelExtractor;
-
     using CarDealersSystem.MongoDbSynchronizator;
-    using CarDealersSystem.Reporters.Contracts;
     using CarDealersSystem.Reporters;
+    using CarDealersSystem.Reporters.Contracts;
+
     using MySqlDbModule;
+    
+    using ZipExcelExtractor;
 
     public class ConsoleClient
     {
@@ -26,8 +27,8 @@
             MySqlDbCreator.CreateDatabase();
 
             // Generates report files and sends the data for them to the MySQL database
-            IReporter reporter = new JsonReporter();
-            reporter.Report();
+            var jsonReporter = new JsonReporter();
+            jsonReporter.Report();
 
             var excelReporter = new ExcelReporter();
             excelReporter.Report();
