@@ -1,0 +1,8 @@
+D:\TeamWork4\CarDealersSystem\CarSalesSystem.Model\bin\Debug\CarSalesSystem.Model.dll.config
+D:\TeamWork4\CarDealersSystem\CarSalesSystem.Model\bin\Debug\CarSalesSystem.Model.dll
+D:\TeamWork4\CarDealersSystem\CarSalesSystem.Model\bin\Debug\CarSalesSystem.Model.pdb
+D:\TeamWork4\CarDealersSystem\CarSalesSystem.Model\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\TeamWork4\CarDealersSystem\CarSalesSystem.Model\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\TeamWork4\CarDealersSystem\CarSalesSystem.Model\obj\Debug\CarSalesSystem.Model.csprojResolveAssemblyReference.cache
+D:\TeamWork4\CarDealersSystem\CarSalesSystem.Model\obj\Debug\CarSalesSystem.Model.dll
+D:\TeamWork4\CarDealersSystem\CarSalesSystem.Model\obj\Debug\CarSalesSystem.Model.pdb

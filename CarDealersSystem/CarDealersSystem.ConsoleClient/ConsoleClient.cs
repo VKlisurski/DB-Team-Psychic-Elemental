@@ -12,8 +12,7 @@
     public class ConsoleClient
     {
         public static void Main()
-        {
-            //HERE
+        {           
             Synchronizator.Run();
 
             Extractor ext = new Extractor("..\\..\\");
