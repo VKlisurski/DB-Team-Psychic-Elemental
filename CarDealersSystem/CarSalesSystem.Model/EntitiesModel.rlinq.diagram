@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityDiagrams>
+  <entityDiagramsDiagram dslVersion="2.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CarSalesSystemContext" isDefault="true">
+    <DomainModelMoniker name="/CarSalesSystemContext" />
+    <nestedChildShapes>
+      <classShape Id="b79f68ba-ac04-435a-af3b-4429c2b6e12b" absoluteBounds="0.75, 0.75, 1.5, 2.724278971354166">
+        <DomainClassMoniker name="/CarSalesSystemContext/Sales_report" />
+        <nestedChildShapes>
+          <elementListCompartment Id="f01663c4-46bb-47c3-8266-84a9f715744a" absoluteBounds="0.765, 1.2599999999999998, 1.4700000000000002, 1.5954996744791667" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="0230ad4b-e00e-47bb-ae32-d9bd0de54a62" absoluteBounds="0.765, 2.8654996744791665, 1.4700000000000002, 0.2493896484375" name="ImplementationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+          <elementListCompartment Id="3fd3f949-a66d-4d41-bc86-854fd724e372" absoluteBounds="0.765, 3.1248893229166663, 1.4700000000000002, 0.2493896484375" name="NavigationCompartment" titleTextColor="Black" itemTextColor="Black" />
+        </nestedChildShapes>
+      </classShape>
+    </nestedChildShapes>
+  </entityDiagramsDiagram>
+</EntityDiagrams>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DomainModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="2.0.0.0" name="CarSalesSystemContext" namespace="CarSalesSystem.Model" showPropertiesCompartment="true" xmlns="http://www.telerik.com/ORM">
+  <orm:orm name="CarSalesSystemContext" backend="mysql" xmlns:orm="http://tempuri.org/ORM">
+    <orm:namespace name="CarSalesSystem.Model" default="true">
+      <orm:class name="Sales_report" uniqueId="27a8e29c-5d94-4eba-bc8a-d5e9f0b14178">
+        <orm:table name="sales_reports" />
+        <orm:identity>
+          <orm:key-generator name="autoinc">
+            <orm:key-generator-member property-name="Id" />
+          </orm:key-generator>
+          <orm:single-field field-name="_id" />
+        </orm:identity>
+        <orm:concurrency strategy="changed" />
+        <orm:field name="_id" property="Id" behavior="readwrite" uniqueId="44b56df4-1d46-42d6-b05b-d991a6a93c2c" type="System.Int32">
+          <orm:column name="Id" sql-type="integer" nullable="false" length="0" scale="0" primary-key="true" backend-calculated="true" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_carid" property="CarId" behavior="readwrite" uniqueId="f2944857-b5a9-4b33-8de1-eed3c3fe5407" type="System.Int32">
+          <orm:column name="CarId" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_salesreportfilepath" property="SalesReportFilePath" behavior="readwrite" uniqueId="ca0b3b36-fc55-4f7a-9a83-c5a2a0637963" type="System.String">
+          <orm:column name="SalesReportFilePath" sql-type="varchar" nullable="false" length="50" scale="0" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_carmodel" property="CarModel" behavior="readwrite" uniqueId="53dd90da-c09d-4b7b-bc0a-e0d824330578" type="System.String">
+          <orm:column name="CarModel" sql-type="varchar" nullable="false" length="50" scale="0" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_carmake" property="CarMake" behavior="readwrite" uniqueId="30b86188-f1a0-4f7f-8ba1-38d72f24ca7f" type="System.String">
+          <orm:column name="CarMake" sql-type="varchar" nullable="false" length="50" scale="0" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_quantitysold" property="QuantitySold" behavior="readwrite" uniqueId="5f74c4d9-5e2b-444a-b500-cd4b9a619bf4" type="System.Int32">
+          <orm:column name="QuantitySold" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_totalincome" property="TotalIncome" behavior="readwrite" uniqueId="19b9b55f-ae18-4d21-81ab-6093b34c7722" type="System.Int64">
+          <orm:column name="TotalIncome" sql-type="decimal" nullable="false" length="10" scale="0" ado-type="Decimal" />
+        </orm:field>
+        <orm:index name="CarId_UNIQUE" unique="true">
+          <orm:columnMapping>
+            <orm:column name="CarId" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+          </orm:columnMapping>
+        </orm:index>
+        <orm:index name="SalesReportFilePath_UNIQUE" unique="true">
+          <orm:columnMapping>
+            <orm:column name="SalesReportFilePath" sql-type="varchar" nullable="false" length="50" scale="0" ado-type="StringVariableLength" />
+          </orm:columnMapping>
+        </orm:index>
+      </orm:class>
+    </orm:namespace>
+    <orm:schema schema="">
+      <orm:table name="sales_reports">
+        <orm:column name="Id" sql-type="integer" nullable="false" length="0" scale="0" primary-key="true" backend-calculated="true" ado-type="Int32" />
+        <orm:column name="CarId" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        <orm:column name="SalesReportFilePath" sql-type="varchar" nullable="false" length="50" scale="0" ado-type="StringVariableLength" />
+        <orm:column name="CarModel" sql-type="varchar" nullable="false" length="50" scale="0" ado-type="StringVariableLength" />
+        <orm:column name="CarMake" sql-type="varchar" nullable="false" length="50" scale="0" ado-type="StringVariableLength" />
+        <orm:column name="QuantitySold" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        <orm:column name="TotalIncome" sql-type="decimal" nullable="false" length="10" scale="0" ado-type="Decimal" />
+        <orm:index name="CarId_UNIQUE" unique="true">
+          <orm:columnMapping>
+            <orm:column name="CarId" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+          </orm:columnMapping>
+        </orm:index>
+        <orm:index name="SalesReportFilePath_UNIQUE" unique="true">
+          <orm:columnMapping>
+            <orm:column name="SalesReportFilePath" sql-type="varchar" nullable="false" length="50" scale="0" ado-type="StringVariableLength" />
+          </orm:columnMapping>
+        </orm:index>
+      </orm:table>
+    </orm:schema>
+    <orm:relational-naming-settings>
+      <orm:source-strategy>Property</orm:source-strategy>
+      <orm:remove-camel-case>False</orm:remove-camel-case>
+    </orm:relational-naming-settings>
+  </orm:orm>
+  <ModelSettings xmlns="">
+    <AppConfigConnectionPropertyName>SalesSystemDbConnection</AppConfigConnectionPropertyName>
+    <AppConfigConnectionString>server=localhost;database=sales_reports_database;uid=root;pwd=root</AppConfigConnectionString>
+    <NamingSettings>
+      <ClassRules>
+        <CaseMode>PascalCase</CaseMode>
+        <PluralizationMode>Singularize</PluralizationMode>
+      </ClassRules>
+      <FieldRules>
+        <AddPrefix>_</AddPrefix>
+        <CaseMode>Lower</CaseMode>
+      </FieldRules>
+      <PropertyRules>
+        <CaseMode>PascalCase</CaseMode>
+      </PropertyRules>
+      <NavigationPropertyRules />
+    </NamingSettings>
+    <CodeGenerationSettings>
+      <MappingDefinitionType>Xml</MappingDefinitionType>
+    </CodeGenerationSettings>
+    <SchemaUpdateSettings />
+    <BackendConfigurationSettings>
+      <BackendConfiguration>
+        <Backend>MySql</Backend>
+        <ProviderName>MySql.Data.MySqlClient</ProviderName>
+      </BackendConfiguration>
+    </BackendConfigurationSettings>
+  </ModelSettings>
+  <Types>
+    <DomainClass Id="27a8e29c-5d94-4eba-bc8a-d5e9f0b14178" name="Sales_report" namespace="CarSalesSystem.Model" showPropertiesCompartment="true" identityMechanism="DatabaseServerCalculated" concurrencyMode="Changed" showNavigationCompartment="true" showImplementationCompartment="true" identityMechanismMember="Id">
+      <Property Id="44b56df4-1d46-42d6-b05b-d991a6a93c2c" name="Id" type="Int32" label="Id : Int32" kind="Persistent" identity="true" fieldName="_id" />
+      <Property Id="f2944857-b5a9-4b33-8de1-eed3c3fe5407" name="CarId" type="Int32" label="CarId : Int32" kind="Persistent" fieldName="_carid" />
+      <Property Id="30b86188-f1a0-4f7f-8ba1-38d72f24ca7f" name="CarMake" label="CarMake : String" kind="Persistent" fieldName="_carmake" />
+      <Property Id="53dd90da-c09d-4b7b-bc0a-e0d824330578" name="CarModel" label="CarModel : String" kind="Persistent" fieldName="_carmodel" />
+      <Property Id="5f74c4d9-5e2b-444a-b500-cd4b9a619bf4" name="QuantitySold" type="Int32" label="QuantitySold : Int32" kind="Persistent" fieldName="_quantitysold" />
+      <Property Id="ca0b3b36-fc55-4f7a-9a83-c5a2a0637963" name="SalesReportFilePath" label="SalesReportFilePath : String" kind="Persistent" fieldName="_salesreportfilepath" />
+      <Property Id="19b9b55f-ae18-4d21-81ab-6093b34c7722" name="TotalIncome" type="Int64" label="TotalIncome : Int64" kind="Persistent" fieldName="_totalincome" />
+    </DomainClass>
+  </Types>
+  <domainContext>
+    <domainModelHasDomainContext Id="0c80ea02-ee03-4258-aa7d-45392218b892">
+      <domainContainer name="CarSalesSystemContext" namespace="CarSalesSystem.Model" showPropertiesCompartment="true">
+        <entitySetProperty name="Sales_reports" namespace="CarSalesSystem.Model" type="Sales_report" label="Sales_reports : IQueryable&lt;CarSalesSystem.Model.Sales_report&gt;" />
+      </domainContainer>
+    </domainModelHasDomainContext>
+  </domainContext>
+</DomainModel>

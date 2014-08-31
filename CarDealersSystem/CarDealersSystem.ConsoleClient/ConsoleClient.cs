@@ -13,8 +13,9 @@
     {
         public static void Main()
         {
+            //HERE
             Synchronizator.Run();
-            
+
             Extractor ext = new Extractor("..\\..\\");
             ext.ExtractFromArchive("Sales-Reports.zip");
 
@@ -28,6 +29,9 @@
             // Generates report files and sends the data for them to the MySQL database
             IReporter reporter = new JsonReporter();
             reporter.Report();
+
+            var excelReporter = new ExcelReporter();
+            excelReporter.Report();
         }
     }
 }

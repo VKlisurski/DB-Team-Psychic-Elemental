@@ -10,3 +10,15 @@ C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\Mon
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.csprojResolveAssemblyReference.cache
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.exe
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.pdb
+D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.exe.config
+D:\TeamWork4\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.exe
+D:\TeamWork4\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.pdb
+D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.exe
+D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.pdb
+D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Bson.dll
+D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Driver.dll
+D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\XmlController.dll
+D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\XmlController.pdb
+D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Bson.xml
+D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Driver.xml
+D:\TeamWork4\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.csprojResolveAssemblyReference.cache

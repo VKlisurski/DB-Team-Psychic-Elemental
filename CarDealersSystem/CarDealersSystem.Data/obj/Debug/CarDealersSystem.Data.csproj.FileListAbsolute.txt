@@ -10,3 +10,15 @@ C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\Car
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.csprojResolveAssemblyReference.cache
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.dll
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.pdb
+D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Data.dll.config
+D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Data.dll
+D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Data.pdb
+D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Models.dll
+D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.dll
+D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Models.pdb
+D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.xml
+D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.csprojResolveAssemblyReference.cache
+D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.dll
+D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.pdb

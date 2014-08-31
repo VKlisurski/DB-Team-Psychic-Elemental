@@ -6,7 +6,7 @@
     public class MySqlDbCreator
     {
         internal const string UserName = "root";
-        internal const string Password = "12345";
+        internal const string Password = "root";
         private const string DbName = "sales_reports_database";
 
         public static void CreateDatabase()

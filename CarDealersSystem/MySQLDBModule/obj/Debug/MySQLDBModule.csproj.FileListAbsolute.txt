@@ -6,3 +6,9 @@ C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MyS
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MySQLDBModule\obj\Debug\MySqlDbModule.csprojResolveAssemblyReference.cache
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MySQLDBModule\obj\Debug\MySqlDbModule.dll
 C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MySQLDBModule\obj\Debug\MySqlDbModule.pdb
+D:\TeamWork4\CarDealersSystem\MySQLDBModule\bin\Debug\MySqlDbModule.dll.config
+D:\TeamWork4\CarDealersSystem\MySQLDBModule\bin\Debug\MySqlDbModule.dll
+D:\TeamWork4\CarDealersSystem\MySQLDBModule\bin\Debug\MySqlDbModule.pdb
+D:\TeamWork4\CarDealersSystem\MySQLDBModule\obj\Debug\MySqlDbModule.csprojResolveAssemblyReference.cache
+D:\TeamWork4\CarDealersSystem\MySQLDBModule\obj\Debug\MySqlDbModule.dll
+D:\TeamWork4\CarDealersSystem\MySQLDBModule\obj\Debug\MySqlDbModule.pdb
