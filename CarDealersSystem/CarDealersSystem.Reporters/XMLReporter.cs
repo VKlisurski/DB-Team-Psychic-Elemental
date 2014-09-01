@@ -48,7 +48,7 @@
                     {
                         saleElement.SetAttributeValue("dealer", dealer.Name);
                         saleElement.Add(new XElement("summary",
-                            new XAttribute("date", entry.date),
+                            new XAttribute("date", entry.date.ToString("yyyy-MM-dd")),
                             new XAttribute("total-sum", entry.totalSum.ToString("0.00"))));
                     }
 
