@@ -74,3 +74,6 @@ D:\TeamWork4\CarDealersSystem\CarDealersSystem.ConsoleClient\bin\Debug\CarSalesS
 D:\TeamWork4\CarDealersSystem\CarDealersSystem.ConsoleClient\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
 D:\TeamWork4\CarDealersSystem\CarDealersSystem.ConsoleClient\bin\Debug\CarSalesSystem.Model.pdb
 D:\TeamWork4\CarDealersSystem\CarDealersSystem.ConsoleClient\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\Ivan\Education\Telerik Academy\12 Databases (August 2014)\Teamwork\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.ConsoleClient\bin\Debug\CarDealersSystem.ConsoleClient.exe.config
+C:\Users\Ivan\Education\Telerik Academy\12 Databases (August 2014)\Teamwork\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.ConsoleClient\obj\Debug\CarDealersSystem.ConsoleClient.exe
+C:\Users\Ivan\Education\Telerik Academy\12 Databases (August 2014)\Teamwork\DB-Team-Psychic-Elemental\CarDealersSystem\CarDealersSystem.ConsoleClient\obj\Debug\CarDealersSystem.ConsoleClient.pdb

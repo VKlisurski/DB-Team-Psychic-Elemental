@@ -23,6 +23,11 @@
             PDFReporter.Export();
             Console.WriteLine("PDF Report generated successfully");
 
+            // Generates XML reporter
+            var xmlReporter = new XMLReporter();
+            xmlReporter.Report();
+            Console.WriteLine("XML Report created (in \"XMLReports\" folder)");
+
             // Creates MySQL database for the reports
             MySqlDbCreator.CreateDatabase();
 
