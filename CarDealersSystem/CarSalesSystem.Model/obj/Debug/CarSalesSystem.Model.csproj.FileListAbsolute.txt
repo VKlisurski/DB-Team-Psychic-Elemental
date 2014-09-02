@@ -6,3 +6,11 @@ D:\TeamWork4\CarDealersSystem\CarSalesSystem.Model\bin\Debug\Telerik.OpenAccess.
 D:\TeamWork4\CarDealersSystem\CarSalesSystem.Model\obj\Debug\CarSalesSystem.Model.csprojResolveAssemblyReference.cache
 D:\TeamWork4\CarDealersSystem\CarSalesSystem.Model\obj\Debug\CarSalesSystem.Model.dll
 D:\TeamWork4\CarDealersSystem\CarSalesSystem.Model\obj\Debug\CarSalesSystem.Model.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarSalesSystem.Model\bin\Debug\CarSalesSystem.Model.dll.config
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarSalesSystem.Model\bin\Debug\CarSalesSystem.Model.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarSalesSystem.Model\bin\Debug\CarSalesSystem.Model.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarSalesSystem.Model\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarSalesSystem.Model\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarSalesSystem.Model\obj\Debug\CarSalesSystem.Model.csprojResolveAssemblyReference.cache
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarSalesSystem.Model\obj\Debug\CarSalesSystem.Model.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarSalesSystem.Model\obj\Debug\CarSalesSystem.Model.pdb

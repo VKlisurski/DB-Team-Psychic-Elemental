@@ -6,3 +6,8 @@ D:\TeamWork4\CarDealersSystem\CarDealersSystem.Models\bin\Debug\CarDealersSystem
 D:\TeamWork4\CarDealersSystem\CarDealersSystem.Models\bin\Debug\CarDealersSystem.Models.pdb
 D:\TeamWork4\CarDealersSystem\CarDealersSystem.Models\obj\Debug\CarDealersSystem.Models.dll
 D:\TeamWork4\CarDealersSystem\CarDealersSystem.Models\obj\Debug\CarDealersSystem.Models.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Models\bin\Debug\CarDealersSystem.Models.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Models\bin\Debug\CarDealersSystem.Models.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Models\obj\Debug\CarDealersSystem.Models.csprojResolveAssemblyReference.cache
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Models\obj\Debug\CarDealersSystem.Models.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Models\obj\Debug\CarDealersSystem.Models.pdb

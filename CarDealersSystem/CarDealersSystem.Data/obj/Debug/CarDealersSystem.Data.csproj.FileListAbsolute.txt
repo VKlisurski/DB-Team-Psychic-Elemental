@@ -22,3 +22,15 @@ D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.Sq
 D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.csprojResolveAssemblyReference.cache
 D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.dll
 D:\TeamWork4\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Data.dll.config
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Data.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Data.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Models.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Data\bin\Debug\CarDealersSystem.Models.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.csprojResolveAssemblyReference.cache
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Data\obj\Debug\CarDealersSystem.Data.pdb

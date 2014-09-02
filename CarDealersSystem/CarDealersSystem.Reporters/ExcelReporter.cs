@@ -16,7 +16,7 @@
 
     public class ExcelReporter : IReporter
     {
-        private const string ExcelConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Report.xlsx;Extended Properties=Excel 12.0;";
+        private const string ExcelConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=..\\..\\..\\Excell Reports\\Report.xlsx;Extended Properties=Excel 12.0;";
         private const string SqliteConnectionString = "Data Source=..\\..\\..\\..\\SQLiteDataBase\\ReportedBugs.db;Version=3;";
         private const string SqliteToExcelTransferSuccessMessage = "Data transferred from SQLite in Excel file successfully. Check out in bin\\debug.";
         private const string MySqlToExcelTransferSuccessMessage = "Data transferred from MySql in Excel file successfully. Check out in bin\\debug.";

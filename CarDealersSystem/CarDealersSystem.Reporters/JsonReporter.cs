@@ -14,8 +14,8 @@
 
     public class JsonReporter : IReporter
     {
-        private const string ConnectionString = @"Server=localhost;Port=3306;Database=sales_reports_database;Uid=root;Pwd=12345;";
-        private const string ReportsPath = "..\\..\\..\\..\\Sales reports\\";
+        private const string ConnectionString = @"Server=localhost;Port=3306;Database=sales_reports_database;Uid=root;Pwd=root;";
+        private const string ReportsPath = "..\\..\\..\\JSON Reports\\";
         private const string ReportsFileExtension = ".json";
 
         public void Report()
@@ -99,11 +99,9 @@
                 string reportFilePath = saveFilesPaths[i];
 
                 MySqlConnection connection = new MySqlConnection(ConnectionString);
-
+                connection.Open();
                 using (connection)
                 {
-                    connection.Open();
-
                     string commandText = JsonReporter.GetCommandText(connection, reportFilePath);
 
                     MySqlCommand command = new MySqlCommand(commandText, connection);

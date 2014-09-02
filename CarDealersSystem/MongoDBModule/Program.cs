@@ -14,13 +14,13 @@
             var carsDb = mongoServer.GetDatabase("CarDealersSystem");
             var carsCollection = carsDb.GetCollection("Cars");
 
-            //carsDb.CreateCollection("Cars"); //uncomment first run to create collections
+            //carsDb.CreateCollection("Cars");
             //carsDb.CreateCollection("Dealers");
             //carsDb.CreateCollection("Models");
             //carsDb.CreateCollection("Makes");
             //carsDb.CreateCollection("Types");
 
-            //DataEntry.FillWithData(); // uncomment first run to fill data
+            //DataEntry.FillWithData();
 
             Importer.ImportLoosesReportsFromXml();
         }

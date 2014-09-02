@@ -1,24 +1,13 @@
-C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.exe.config
-C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.exe
-C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.pdb
-C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Bson.dll
-C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Driver.dll
-C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\XmlController.dll
-C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\XmlController.pdb
-C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Bson.xml
-C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Driver.xml
-C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.csprojResolveAssemblyReference.cache
-C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.exe
-C:\Users\Velmond\Documents\GitHub\DB-Team-Psychic-Elemental\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.pdb
-D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.exe.config
-D:\TeamWork4\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.exe
-D:\TeamWork4\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.pdb
-D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.exe
-D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.pdb
-D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Bson.dll
-D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Driver.dll
-D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\XmlController.dll
-D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\XmlController.pdb
-D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Bson.xml
-D:\TeamWork4\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Driver.xml
-D:\TeamWork4\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.csprojResolveAssemblyReference.cache
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MySQLDBModule\bin\Debug\MongoDBModule.exe.config
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.exe
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.exe.config
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.exe
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MongoDBModule\bin\Debug\MongoDBModule.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Bson.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Driver.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MongoDBModule\bin\Debug\XmlController.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MongoDBModule\bin\Debug\XmlController.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Bson.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MongoDBModule\bin\Debug\MongoDB.Driver.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MongoDBModule\obj\Debug\MongoDBModule.csprojResolveAssemblyReference.cache

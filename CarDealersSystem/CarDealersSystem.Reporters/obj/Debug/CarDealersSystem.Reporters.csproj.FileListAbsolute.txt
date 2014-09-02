@@ -45,3 +45,32 @@ D:\TeamWork4\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\Telerik.OpenA
 D:\TeamWork4\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarSalesSystem.Model.pdb
 D:\TeamWork4\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
 D:\TeamWork4\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\Telerik.OpenAccess.40.Extensions.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\x64\SQLite.Interop.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\x86\SQLite.Interop.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarDealersSystem.Reporters.dll.config
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarDealersSystem.Reporters.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarDealersSystem.Reporters.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarDealersSystem.Data.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarDealersSystem.Models.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarSalesSystem.Model.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\EntityFramework.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\EntityFramework.SqlServer.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\itextsharp.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\Newtonsoft.Json.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\System.Data.SQLite.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\Telerik.OpenAccess.40.Extensions.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarDealersSystem.Data.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarDealersSystem.Models.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\CarSalesSystem.Model.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\EntityFramework.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\EntityFramework.SqlServer.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\Newtonsoft.Json.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\System.Data.SQLite.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\bin\Debug\Telerik.OpenAccess.40.Extensions.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\obj\Debug\CarDealersSystem.Reporters.csprojResolveAssemblyReference.cache
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\obj\Debug\CarDealersSystem.Reporters.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.Reporters\obj\Debug\CarDealersSystem.Reporters.pdb

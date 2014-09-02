@@ -42,3 +42,25 @@ D:\TeamWork4\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\X
 D:\TeamWork4\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\obj\Debug\CarDealersSystem.MongoDbSynchronizator.csprojResolveAssemblyReference.cache
 D:\TeamWork4\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\obj\Debug\CarDealersSystem.MongoDbSynchronizator.dll
 D:\TeamWork4\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\obj\Debug\CarDealersSystem.MongoDbSynchronizator.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\CarDealersSystem.MongoDbSynchronizator.dll.config
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\CarDealersSystem.MongoDbSynchronizator.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\CarDealersSystem.MongoDbSynchronizator.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\CarDealersSystem.Data.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\CarDealersSystem.Models.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\EntityFramework.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\EntityFramework.SqlServer.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\MongoDB.Bson.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\MongoDB.Driver.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\MongoDBModule.exe
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\XmlController.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\CarDealersSystem.Data.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\CarDealersSystem.Models.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\MongoDBModule.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\EntityFramework.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\EntityFramework.SqlServer.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\MongoDB.Bson.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\MongoDB.Driver.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\bin\Debug\XmlController.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\obj\Debug\CarDealersSystem.MongoDbSynchronizator.csprojResolveAssemblyReference.cache
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\obj\Debug\CarDealersSystem.MongoDbSynchronizator.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\CarDealersSystem.MongoDbSynchronizator\obj\Debug\CarDealersSystem.MongoDbSynchronizator.pdb

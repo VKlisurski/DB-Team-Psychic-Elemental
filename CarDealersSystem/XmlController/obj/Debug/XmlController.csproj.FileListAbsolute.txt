@@ -7,3 +7,8 @@ D:\TeamWork4\CarDealersSystem\XmlController\bin\Debug\XmlController.pdb
 D:\TeamWork4\CarDealersSystem\XmlController\obj\Debug\XmlController.csprojResolveAssemblyReference.cache
 D:\TeamWork4\CarDealersSystem\XmlController\obj\Debug\XmlController.dll
 D:\TeamWork4\CarDealersSystem\XmlController\obj\Debug\XmlController.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\XmlController\bin\Debug\XmlController.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\XmlController\bin\Debug\XmlController.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\XmlController\obj\Debug\XmlController.csprojResolveAssemblyReference.cache
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\XmlController\obj\Debug\XmlController.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\XmlController\obj\Debug\XmlController.pdb

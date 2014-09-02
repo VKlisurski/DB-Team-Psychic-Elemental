@@ -42,3 +42,25 @@ D:\TeamWork4\CarDealersSystem\ZipExcelExtractor\bin\Debug\XmlController.pdb
 D:\TeamWork4\CarDealersSystem\ZipExcelExtractor\obj\Debug\ZipExcelExtractor.csprojResolveAssemblyReference.cache
 D:\TeamWork4\CarDealersSystem\ZipExcelExtractor\obj\Debug\ZipExcelExtractor.dll
 D:\TeamWork4\CarDealersSystem\ZipExcelExtractor\obj\Debug\ZipExcelExtractor.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\ZipExcelExtractor.dll.config
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\ZipExcelExtractor.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\ZipExcelExtractor.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\CarDealersSystem.Data.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\CarDealersSystem.Models.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\EntityFramework.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\EntityFramework.SqlServer.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\MongoDBModule.exe
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\MongoDB.Bson.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\MongoDB.Driver.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\XmlController.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\CarDealersSystem.Data.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\CarDealersSystem.Models.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\MongoDBModule.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\EntityFramework.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\EntityFramework.SqlServer.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\MongoDB.Bson.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\MongoDB.Driver.xml
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\bin\Debug\XmlController.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\obj\Debug\ZipExcelExtractor.csprojResolveAssemblyReference.cache
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\obj\Debug\ZipExcelExtractor.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\ZipExcelExtractor\obj\Debug\ZipExcelExtractor.pdb

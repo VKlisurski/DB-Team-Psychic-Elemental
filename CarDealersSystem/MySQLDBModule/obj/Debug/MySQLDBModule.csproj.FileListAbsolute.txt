@@ -12,3 +12,9 @@ D:\TeamWork4\CarDealersSystem\MySQLDBModule\bin\Debug\MySqlDbModule.pdb
 D:\TeamWork4\CarDealersSystem\MySQLDBModule\obj\Debug\MySqlDbModule.csprojResolveAssemblyReference.cache
 D:\TeamWork4\CarDealersSystem\MySQLDBModule\obj\Debug\MySqlDbModule.dll
 D:\TeamWork4\CarDealersSystem\MySQLDBModule\obj\Debug\MySqlDbModule.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MySQLDBModule\bin\Debug\MySqlDbModule.dll.config
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MySQLDBModule\bin\Debug\MySqlDbModule.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MySQLDBModule\bin\Debug\MySqlDbModule.pdb
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MySQLDBModule\obj\Debug\MySqlDbModule.csprojResolveAssemblyReference.cache
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MySQLDBModule\obj\Debug\MySqlDbModule.dll
+E:\Academy\DataBase\Teamwork\Teamwork 1.1\CarDealersSystem\MySQLDBModule\obj\Debug\MySqlDbModule.pdb
