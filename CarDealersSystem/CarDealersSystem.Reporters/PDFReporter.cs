@@ -18,7 +18,8 @@
             var carDealerDb = new CarDealersSystemDbContext();
             var strBuilder = new StringBuilder();
 
-            var dates = carDealerDb.SalesReports.Select(x => x.ReportDate).ToArray();
+            var dates = carDealerDb.SalesReports.GroupBy(x => x.ReportDate).ToArray();
+            Console.WriteLine("-------------------------------------------salesCount {0}", dates.Count());
             decimal grandTotal = 0m;
 
             strBuilder.Append("<table border='1'>");
@@ -27,11 +28,11 @@
             strBuilder.Append("</tr>");
             strBuilder.Append("</table>");
 
-            for (int i = 0; i < dates.Count() / 3; i++)
+            for (int i = 0; i < dates.Count(); i++)
             {
                 strBuilder.Append("<table border='1'>");
                 strBuilder.Append("<tr bgcolor='#BBBBBB'>");
-                strBuilder.AppendFormat("<th colspan='5'>Date: {0}</th>", dates[i]);
+                strBuilder.AppendFormat("<th colspan='5'>Date: {0}</th>", dates[i].Key);
                 strBuilder.Append("</tr>");
                 strBuilder.Append("<tr bgcolor='#BBBBBB'>");
                 strBuilder.Append("<th class=\"th\"><b>Car Model Name</b></th>");
@@ -41,6 +42,8 @@
                 strBuilder.Append("<th><b>Sum</b></th>");
                 strBuilder.Append("</tr>");
 
+                var salesDate = dates[i].Key.Date;
+
                 var reports = carDealerDb.Cars.Join(carDealerDb.SalesReports, car => car.CarID, sale => sale.CarID,
                                           (car, sale) => new
                                           {
@@ -48,10 +51,12 @@
                                               Price = car.Price,
                                               DealerName = sale.DealerName,
                                               Quantity = sale.Quantity,
-                                              Sum = sale.Sum * sale.Quantity
-                                          });
+                                              ReportDate = sale.ReportDate,
+                                              Sum = sale.Sum
+                                          }).Where(s => s.ReportDate.Day == salesDate.Day);
 
                 decimal totalSum = 0;
+
                 foreach (var report in reports)
                 {
                     totalSum = totalSum + report.Sum;
@@ -63,11 +68,11 @@
                     strBuilder.AppendFormat("<td>{0}</td>", report.Sum);
                     strBuilder.Append("</tr>");
                 }
-
+                
                 grandTotal = grandTotal + totalSum;
 
                 strBuilder.Append("<tr>");
-                strBuilder.AppendFormat("<td colspan='4' align=right>Total Sum for {0}: </td>", dates[i]);
+                strBuilder.AppendFormat("<td colspan='4' align=right>Total Sum for {0}: </td>", dates[i].Key);
                 strBuilder.AppendFormat("<td>{0}</td>", totalSum);
                 strBuilder.Append("</tr>");
                 strBuilder.Append("</table>");

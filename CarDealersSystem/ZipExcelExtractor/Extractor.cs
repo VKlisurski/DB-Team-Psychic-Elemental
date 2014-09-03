@@ -5,6 +5,7 @@
     using System.Data.OleDb;
     using System.IO;
     using System.IO.Compression;
+    using System.Linq;
 
     using CarDealersSystem.Data;
     using CarDealersSystem.Models;
@@ -60,18 +61,25 @@
                     int quantity = int.Parse(row.ItemArray[2].ToString());
                     decimal sum = decimal.Parse(row.ItemArray[3].ToString());
                     DateTime date = DateTime.ParseExact(folderName, "dd-mm-yyyy", null);
-                    this.InsertToSQL(dealerName, carID, date, quantity, sum);
+                    this.InsertToSql(dealerName, carID, date, quantity, sum);
                 }
             }
         }
 
-        private void InsertToSQL(string dealerName, int carID, DateTime date, int quantity, decimal sum)
+        private void InsertToSql(string dealerName, int carID, DateTime date, int quantity, decimal sum)
         {
             using (var db = new CarDealersSystemDbContext())
             {
-                var newSalesReport = new SalesReport(dealerName, carID, date, quantity, sum);
-                db.SalesReports.Add(newSalesReport);
-                db.SaveChanges();
+                var oldSqlSale = db.SalesReports.Where(s => s.ReportDate == date)
+                                                        .Where(s => s.CarID == carID)
+                                                        .FirstOrDefault();
+
+                if (oldSqlSale == null)
+                {
+                    var newSalesReport = new SalesReport(dealerName, carID, date, quantity, sum);
+                    db.SalesReports.Add(newSalesReport);
+                    db.SaveChanges();
+                }
             }
         }
     }
