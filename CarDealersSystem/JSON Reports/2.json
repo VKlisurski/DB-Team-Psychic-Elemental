@@ -1,8 +1,8 @@
 {
   "CarId": 2,
-  "CarModer": "Astra",
+  "CarModer": "Corsa",
   "CarMake": "Opel",
-  "PricePerUnit": 32000.00,
-  "Quantity": 40,
-  "Sum": 920000.00
+  "PricePerUnit": 4500.00,
+  "Quantity": 2,
+  "Sum": 46000.00
 }

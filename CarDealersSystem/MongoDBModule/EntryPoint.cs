@@ -2,13 +2,10 @@
 {
     using MongoDB.Driver;
 
-    public class Program
+    public class EntryPoint
     {
         public static void Main()
         {
-            // NOTE: All the data entry will be fixed. This is temporary solution.
-            // NOTE2: The DealersIncomes will be parsed from XML
-
             var mongoClient = new MongoClient("mongodb://localhost/");
             var mongoServer = mongoClient.GetServer();
             var carsDb = mongoServer.GetDatabase("CarDealersSystem");
