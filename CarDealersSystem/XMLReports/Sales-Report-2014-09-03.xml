@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sales>
   <sale dealer="Overdrive">
-    <summary date="2014-01-17" total-sum="96000.00" />
+    <summary date="2014-01-17" total-sum="1323000.00" />
+    <summary date="2014-01-23" total-sum="224000.00" />
   </sale>
   <sale dealer="Mobile">
-    <summary date="2014-01-17" total-sum="30000.00" />
+    <summary date="2014-01-17" total-sum="210000.00" />
+    <summary date="2014-01-23" total-sum="245000.00" />
+  </sale>
+  <sale dealer="Gurublqne">
+    <summary date="2014-01-17" total-sum="196000.00" />
+    <summary date="2014-01-23" total-sum="31500.00" />
   </sale>
 </sales>
